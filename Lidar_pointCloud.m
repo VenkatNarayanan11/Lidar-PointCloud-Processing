@@ -57,6 +57,7 @@ toc;
 
 disp("The model parameters are:" )
 disp(model.Parameters)
+
 % Plotting the ground plane model
 figure(3)
 pcshow(pt_cloud_down);
@@ -135,8 +136,6 @@ view(0,90);
 title('2D depth image in X-Y plane');
 set(gcf, 'InvertHardCopy', 'off');
 saveas(gcf,'2D depth image in X-Y plane.png'); % save as .png file
-
-
 
 % Y-Z plane
 figure(9);
